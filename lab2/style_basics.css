@@ -1,0 +1,67 @@
+/*class selector*/
+.myheading {
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/*id selector
+#myheading {
+    color: brown;
+}
+*/
+
+/*Mulit selectors*/
+h1, h2 {
+    color: brown;
+}
+
+
+/* all alts have "cat" in it */
+
+[alt  *= "cat" ] {
+    border: 2px solid red;
+}
+
+
+/* annything that starts with data in src */
+[src^="data"] {
+    border: 2px solid green;
+}
+
+
+/* annything that ends with .png in src */
+
+[src$=".png"] {
+    border: 2px solid orange;
+}
+
+/*hover effect*/
+div:hover {
+    background-color: lightgray;
+}
+
+/*pseudo element*/
+
+#p-tag:first-line{
+    color: brown;
+    font-weight: bold;
+}
+
+/*fisrt p after h2*/
+
+h2 + p {
+    background-color: aquamarine;
+}
+
+
+/*all p's after h2*/
+
+h2 ~ p {
+    background-color: azure;
+}

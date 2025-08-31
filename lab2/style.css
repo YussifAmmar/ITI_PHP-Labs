@@ -1,0 +1,262 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1,h2 {
+    color: brown;
+    text-align: center;
+     font-family: Arial, sans-serif;
+     padding: 10px;
+    margin: 20px;   
+    }
+#nav-bar {
+    background-color:brown;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+   
+}
+#welcome {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+li {
+    display: inline;
+    margin: 80px;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+a:hover {
+    color: wheat;
+    cursor: pointer;
+}
+
+
+#intro {
+
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+[alt  ^= "travel" ] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 50%;
+}
+img {
+    display: block;
+    margin: 20px;
+    width: 90%;
+} 
+#ben{
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: brown;
+    width: 305px;
+    height: auto;
+}
+#ben-text {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+#wiki-ben{
+    text-decoration:dashed;
+    color:bisque;
+    font-weight:lighter;
+    font-family: Arial, sans-serif;
+}
+#wiki-ben:hover{
+color: wheat;
+cursor:pointer;
+}
+
+#eiffel{
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: brown;
+    width: 305px;
+    height: auto;
+}
+#eif-text {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+#wiki-eif{
+    text-decoration:dashed;
+    color:bisque;
+    font-weight:lighter;
+    font-family: Arial, sans-serif;
+}
+#wiki-eif:hover{
+color: wheat;
+cursor:pointer;
+}
+
+/* #china-wall{
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: brown;
+    width: 305px;
+    height: auto;
+}
+
+#wall-text {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin-top: 45px;
+}
+#wiki-wall{
+    text-decoration:dashed;
+    color:bisque;
+    font-weight:lighter;
+    font-family: Arial, sans-serif;
+}
+#wiki-wall:hover{
+color: wheat;
+cursor:pointer;
+} */
+
+
+#pyramids{
+    text-align: left;
+    padding: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-color: brown;
+    width: 305px;
+    height: auto;
+}
+
+#pyr-text {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin-top: 45px;
+}
+#wiki-pyr{
+    text-decoration:dashed;
+    color:bisque;
+    font-weight:lighter;
+    font-family: Arial, sans-serif;
+}
+#wiki-pyr:hover{
+color: wheat;
+cursor:pointer;
+}
+
+
+
+
+
+#my-trips {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+#travel-tips {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f3ef;
+  border-left: 5px solid brown;
+  border-radius: 8px;
+}
+
+#travel-tips p {
+  margin-bottom: 10px;
+}
+
+#contact-section {
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fdf7f4;
+  border-left: 5px solid brown;
+  border-radius: 8px;
+}
+
+#contact-section input,
+#contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+#contact-section button {
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#contact-section button:hover {
+  background-color: #a0522d;
+}
+#mail{
+    color: #a0522d;
+}
+#tips{
+    color: black;
+}
