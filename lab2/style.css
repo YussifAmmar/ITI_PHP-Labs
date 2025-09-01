@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,h2 {
+h1, h2 {
     color: brown;
     text-align: center;
      font-family: Arial, sans-serif;
@@ -129,7 +129,7 @@ color: wheat;
 cursor:pointer;
 }
 
-/* #china-wall{
+ #china-wall{
     text-align: left;
     padding: 20px;
     margin-right: 20px;
@@ -159,7 +159,7 @@ cursor:pointer;
 #wiki-wall:hover{
 color: wheat;
 cursor:pointer;
-} */
+} 
 
 
 #pyramids{
@@ -200,10 +200,11 @@ cursor:pointer;
 
 #my-trips {
     display: flex;
-    gap: 200px;
-    justify-content: center;
+    /* gap: 200px; */
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    
 }
 
 
@@ -256,7 +257,4 @@ cursor:pointer;
 }
 #mail{
     color: #a0522d;
-}
-#tips{
-    color: black;
 }
