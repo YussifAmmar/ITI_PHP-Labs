@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 1</title>
+</head>
+<body>
+  <h2>Add Items to a List</h2>
+  <input type="text" id="itemInput" placeholder="Enter item">
+  <button onclick="addItem()">Add</button>
+  <ul id="itemList"></ul>
+
+  <script>
+    function addItem() {
+      let input = document.getElementById("itemInput");
+      let text = input.value.trim();
+      if (text !== "") {
+        let li = document.createElement("li");
+        li.innerText = text;
+        document.getElementById("itemList").appendChild(li);
+        input.value = ""; // reset input
+      }
+    }
+  </script>
+</body>
+</html>
