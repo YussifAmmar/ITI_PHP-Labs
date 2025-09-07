@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Commented CSS UI</title>
+  </head>
+  <body class="theme-dark">
+    <header>
+      <div class="container nav">
+        <a href="#" class="brand">
+          <span class="brand_logo">⚡</span><span>Commented CSS UI</span>
+        </a>
+        <div class="actions">
+          <button id="themeBtn" class="btn outline">Toggle Theme</button>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="container hero">
+        <div>
+          <h1>
+            Clean, modern starter with <em>fully commented CSS.</em>
+          </h1>
+          <p>
+            Use this page as a reference for what each CSS property does in a real layout. 
+            Switch themes, hover the cards, and inspect the code.
+          </p>
+          <div class="actions">
+            <button class="btn">Primary Action</button>
+            <button
+              class="btn outline"
+              onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})"
+            >
+              See Features
+            </button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div id="sparkle"><img src="parot.jpg" alt="parot img"></div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="container">
+        <div class="grid">
+          <article class="card">
+            <h3>Semantic HTML</h3>
+            <p>Sections, articles, headers, and footers organize content meaningfully.</p>
+          </article>
+          <article class="card">
+            <h3>Responsive Grid</h3>
+            <p>The card grid auto-fits columns and adapts across screen sizes.</p>
+          </article>
+          <article class="card">
+            <h3>Accessible Focus</h3>
+            <p>Inputs use a visible focus ring, improving keyboard navigation.</p>
+          </article>
+          <article class="card">
+            <h3>Theme Tokens</h3>
+            <p>Change a few custom properties to re-skin the entire interface.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="container" style="margin-bottom: 20px">
+        <div class="panel">
+          <h2>Get in touch</h2>
+          <form action="" class="contactForm">
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Jane Doe"
+                required
+              />
+              <p>Enter 2 or more characters.</p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="you@example.com"
+                required
+              />
+              <p>We’ll never share your email.</p>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small>&copy; <span id="year">2025</span> Commented CSS UI</small>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
